@@ -1,5 +1,26 @@
 .lead__image {
-  max-width: 984px;
-  min-width: 320px;
-  max-height: 615px;
+  background-image: url(../../../images/lead_image.jpg);
+  width: 100%;
+  padding-bottom: 62.5%;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
 }
+
+
+@media screen and (max-width: 768px) {
+
+  .lead__image {
+    padding-bottom: 64.4%;
+  }
+  
+}
+  
+@media screen and (max-width: 320px) {
+
+  .lead__image {
+    padding-bottom: 62.4%;
+  }
+  
+}
+  
