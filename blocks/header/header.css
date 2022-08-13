@@ -2,10 +2,11 @@
 @import url(./__lang-link/header__lang-link.css);
 @import url(./__logo/header__logo.css);
 @import url(./__lang-link/_active/header__lang-link_active.css);
+@import url(./__logo-image/header__logo-image.css);
 
 .header {
-  max-width: 1184px;
-  min-width: 288px;
+  padding: 0 48px;
+  
   min-height: 52px;
   display: flex;
   justify-content: space-between;
@@ -14,21 +15,16 @@
   padding-top: 28px;
 }
 
-@media screen and (max-width: 1024px)   {
-      .header {
-        max-width: 928px;
-      }
-  }
 
 
 @media screen and (max-width: 768px) {
-      .header {
-        max-width: 720px;
-      }
+  .header {
+    padding: 0 24px;
+  }
 }  
 
 @media screen and (max-width: 320px) {
   .header {
-    max-width: 288px;
+    padding: 0 16px;
   }
 }  
