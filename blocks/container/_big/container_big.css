@@ -1,0 +1,16 @@
+.container_big {
+    max-width: 1184px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container_big {
+      max-width: 928px;
+    }
+  } 
+  
+@media screen and (max-width: 320px) {
+    .container_big {
+        max-width: 304px;
+    }
+  }  
