@@ -1,17 +1,17 @@
 .container_big {
-    max-width: 1184px;
+    max-width: min(1184px, 95vw);
 }
 
 
 @media screen and (max-width: 1024px) {
     .container_big {
-      max-width: 928px;
+      max-width: min(928px, 95vw);
     }
   }
   
   @media screen and (max-width: 768px) {
     .container_big {
-      max-width: 720px;
+      max-width: min(720px, 95vw);
     }
   }   
   
