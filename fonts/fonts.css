@@ -14,11 +14,10 @@
   font-weight: 700;
 }
 
-
 @font-face {
-  font-family: 'Inter';
-  src: url(./Inter/Inter-SemiBold.woff) format('woff'),
-      url(./Inter/Inter-SemiBold.woff2) format('woff2');
+  font-family: 'Inler Black';
+  src: url(./Inter/Inter-Black.woff) format('woff'),
+       url(./Inter/Inter-Black.woff2) format('woff2');
   font-style: normal;
-  font-weight: 600;
+  font-weight: 900;
 }
