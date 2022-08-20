@@ -4,8 +4,8 @@
 .photo-grid {
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 284px);
-  grid-template-rows: repeat(3, 213px);
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-rows: repeat(3, auto);
   grid-auto-columns:repeat(4, 284px);
   grid-auto-rows:repeat(3, 213px);
   justify-content: center;
@@ -16,8 +16,8 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid  {
-    grid-template-columns: repeat(auto-fit, 300px);
-    grid-template-rows: repeat(auto-fit, 225px);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, auto);
     gap: 14px 14px;
   }
 
@@ -25,8 +25,8 @@
 
 @media screen and (max-width: 768px) {
   .photo-grid  {
-    grid-template-columns: repeat(auto-fit, minmax(fit-content ,352px));
-    grid-template-rows: repeat(auto-fit, 264px);
+    grid-template-columns: repeat(auto-fit, minmax(auto-fit,1fr));
+    grid-template-rows: repeat(auto-fit, auto);
     gap: 16px 16px;
     padding-bottom: 88px;
   }
