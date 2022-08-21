@@ -45,6 +45,6 @@
   .place { 
     row-gap: 32px;
     grid-template-columns: 320px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
   }
 }  

@@ -7,13 +7,10 @@
   box-sizing: border-box;
 }
 
-
 @media screen and (max-width: 768px) {
-
   .lead__image {
     padding-bottom: 64.4%;
   }
-  
 }
   
 @media screen and (max-width: 320px) {

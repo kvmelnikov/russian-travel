@@ -3,16 +3,35 @@
   font-family: Inler Black;  
   font-size: 72px;
   font-weight: 900;
-  line-height: 76px;
+  line-height: 1.05;
   text-align: center;
   z-index: 1;
   width: 560px;
   align-self: center;
   margin-bottom: 32px;
+  position: absolute; 
+  top: 33%;
 }
 
 
+.cover__title:hover ~ .cover__overlay {
+  opacity: .8;
+}
 
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    top: 30.5%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    font-size: min(72px, 10vw);
+    width: min(560px, 73vw);
+    line-height: min(1.05, 73vw);
+    top: 24%;
+  }
+}
 
 
 @media screen and (max-width: 320px) {
@@ -21,5 +40,6 @@
   line-height: 35px;
   width: 288px;
   margin-bottom: 16px;
+  top: 16.5%;
 }
 }  
