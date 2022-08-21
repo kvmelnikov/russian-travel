@@ -5,31 +5,41 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__website/place__website.css);
 
+
 .place {
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 460px 484px;
+  justify-content: space-around;
+  grid-template-columns: 46.75% 49.19%;
   column-gap: 40px;
   row-gap: 48px;
   padding-bottom: 80px;
 }
 
-
 @media screen and (max-width: 1024px) {
   .place { 
     column-gap: 32px;
-    grid-template-columns: 440px 456px;
+    justify-content: center;
+    grid-template-columns: 42.96% 44.53%;
   }
+} 
 
-}  
 
 @media screen and (max-width: 768px) {
   .place { 
     column-gap: 28px;
-    grid-template-columns: 340px 352px;
+    justify-content: space-around;
+    grid-template-columns: 44.27% 45.83%;
     padding-bottom: 73px;
   }
-}  
+} 
 
+@media screen and (max-width: 450px) {
+  .place {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .place { 

@@ -6,3 +6,11 @@ display: inline-block;
 margin-top: 12px;
 align-self: end;
 }
+
+@media screen and (max-width: 320px) { 
+  .place__link  {
+    padding-left: 16px;
+  }
+
+}
+
