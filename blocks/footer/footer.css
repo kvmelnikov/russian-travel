@@ -2,20 +2,45 @@
 @import url(./__links/footer__links.css);
 
 .footer {
-  display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(407px, 4fr)  max-content;
   align-items: center;
-  padding: 92px 48px 24px 48px;
+  justify-content: center;
+  padding: 92px 0 24px 0;
+  width: 92.5%;
   font-size: 16px;
   font-weight: 400;
-  line-height: 18px;
+  line-height: 1.25;  
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .footer {
+   padding-top: 88px; 
+  }
+}
+
+@media screen and (max-width: 713px) {
+  .footer {
+    font-size: 24px;
+    line-height: 1;
+    grid-template-columns: max-content;
+    row-gap: 32px;
+  }
+  
 }
 
 @media screen and (max-width: 320px) {
 .footer {
   font-size: 24px;
-  line-height: 24px;
-  flex-wrap: wrap;
-  padding: 64px auto 24px 16px;
+  line-height: 1;
+  padding: 64px 0 24px;
 }
 }  
