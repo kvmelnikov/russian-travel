@@ -5,13 +5,13 @@
   font-weight: 900;
   line-height: 58px;
   margin-bottom: 40px;
+  max-width: 690px;
 }
 
 
 @media screen and (max-width: 768px) {
   .intro__title {
-    padding-right: 24px;
-    padding-left: 24px;
+    max-width: 720px;
   }
 }  
 
@@ -27,8 +27,6 @@
   .intro__title {
     font-size: 32px;
     line-height: 35px;
-    padding-right: 16px;
-    padding-left: 16px;
-  
+    max-width: 288px;
   }
 }  

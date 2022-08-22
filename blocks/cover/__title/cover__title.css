@@ -9,8 +9,6 @@
   width: 560px;
   align-self: center;
   margin-bottom: 32px;
-  position: absolute; 
-  top: 33%;
 }
 
 
@@ -20,7 +18,6 @@
 
 @media screen and (max-width: 1024px) {
   .cover__title {
-    top: 30.5%;
   }
 }
 
@@ -29,7 +26,6 @@
     font-size: min(72px, 10vw);
     width: min(560px, 73vw);
     line-height: min(1.05, 73vw);
-    top: 24%;
   }
 }
 

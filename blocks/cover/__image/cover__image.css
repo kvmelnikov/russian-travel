@@ -2,13 +2,14 @@
   margin: 0 auto;
   background-image: url(../../../images/cover_background.jpg);
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  width: 92.5%;
+  max-width: 1184px;
+  min-height: 740px;
   padding-left: 48px;
   padding-right: 48px;
-  padding-bottom: 62.5%;
   box-sizing: border-box;
+  z-index: -2;
 }
 
 

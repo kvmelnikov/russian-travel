@@ -6,8 +6,6 @@ text-align: center;
 z-index: 1;
 width: 360px;
 align-self: center;
-position: absolute;
-top: 53.65%;
 }
 
 .cover__subtitle:hover ~ .cover__overlay {
@@ -16,13 +14,11 @@ top: 53.65%;
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    top: 59.2%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__subtitle {
-    top: 62.3%;
   }
 }
 
