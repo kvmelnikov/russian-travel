@@ -1,35 +1,23 @@
 .intro__text {
-padding-right: 294px;
 font-size: 16px;
 font-weight: 400;
 line-height: 26px;
 margin-bottom: 33px;
-
-}
-
-@media screen and (max-width: 1024px) {
-  .intro__text {
-    padding-right: 239px;
-  
-    
-  }
+max-width: 690px;
 }
 
 @media screen and (max-width: 768px) {
-    .intro__text {
-      padding-right: 24px;
-      padding-left: 24px;
+  .intro {
+    padding-bottom: 88px;
+    max-width: 720px;
+    margin: 0 auto;
     }
   }  
   
 
 @media screen and (max-width: 320px) {
-  .intro__text {
-    padding-right: 16px;
-    padding-left: 16px;
-  
-    
+  .intro {
+    padding-bottom: 64px;
+    max-width: 288px;
   }
 }  
-
-

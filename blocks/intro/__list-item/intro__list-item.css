@@ -3,3 +3,18 @@ font-size: 12px;
 font-weight: 700;
 line-height: 1.5;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__list-item {
+      max-width: 720px;
+      margin: 0 auto;
+      }
+    }  
+    
+  
+  @media screen and (max-width: 320px) {
+    .intro__list-item {
+      max-width: 288px;
+    }
+  }  
+  
