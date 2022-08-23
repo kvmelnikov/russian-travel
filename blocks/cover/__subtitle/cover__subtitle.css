@@ -3,14 +3,11 @@ font-size: 18px;
 font-weight: 400;
 line-height: 22px;
 text-align: center;
-z-index: 1;
+z-index: 2;
 width: 360px;
 align-self: center;
 }
 
-.cover__subtitle:hover ~ .cover__overlay {
-  opacity: .8;
-}
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
