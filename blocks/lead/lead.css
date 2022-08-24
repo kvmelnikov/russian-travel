@@ -5,9 +5,12 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  max-width: min(984px, 80vw);
+
 }
 @media screen and (max-width: 1024px) { 
   .lead {
+    max-width: min(928px, 95vw);
     padding: 48px 0 92px 0;
   }
 }  
@@ -15,12 +18,40 @@
 
 @media screen and (max-width: 768px) { 
   .lead {
+    max-width: min(768px, 100vw);
     padding: 50px 0 86px 0;
   }
 }  
 
 @media screen and (max-width: 320px) { 
   .lead {
+    max-width: 320px;
     padding: 48px 0 64px 0;
+  }
+}  
+
+.container {
+  max-width: min(984px, 80vw);
+} 
+
+
+@media screen and (max-width: 1024px){
+  .container {
+    max-width: min(928px, 95vw);
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: min(720px, 95vw);
+  }
+}
+
+
+
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 288px;
   }
 }  
