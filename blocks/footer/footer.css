@@ -11,13 +11,23 @@
   width: 92.5%;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.25;  
+  line-height: 1.25;
 }
+
+
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
 
 
 @media screen and (max-width: 768px) {
   .footer {
-   padding-top: 88px; 
+   padding-top: 88px;
+   max-width: 720px;
   }
 }
 
@@ -28,12 +38,14 @@
     grid-template-columns: max-content;
     row-gap: 32px;
   }
-  
+
 }
 
 @media screen and (max-width: 320px) {
 .footer {
   font-size: 24px;
   padding: 64px 0 24px;
+  justify-content: left;
+  row-gap: 48px;
 }
-}  
+}

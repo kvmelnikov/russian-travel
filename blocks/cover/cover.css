@@ -3,5 +3,20 @@
   margin: 0 auto;
   width: 100%;
   position: relative;
+  padding-top: 12px;
 }
 
+
+
+
+@media screen and (max-width: 768px) {
+  .cover {
+    padding-top: 17px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    padding-top: 26px;
+  }
+}
