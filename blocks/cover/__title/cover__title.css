@@ -1,6 +1,6 @@
 .cover__title {
   margin: 0;
-  font-family: Inler Black;  
+  font-family: Inler Black,  Arial, sans-serif;
   font-size: 72px;
   font-weight: 900;
   line-height: 1.05;
@@ -11,15 +11,6 @@
   margin-bottom: 32px;
 }
 
-
-.cover__title:hover ~ .cover__overlay {
-  opacity: .8;
-}
-
-@media screen and (max-width: 1024px) {
-  .cover__title {
-  }
-}
 
 @media screen and (max-width: 768px) {
   .cover__title {
@@ -38,4 +29,4 @@
   margin-bottom: 16px;
   top: 16.5%;
 }
-}  
+}

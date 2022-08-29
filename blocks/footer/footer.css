@@ -14,12 +14,6 @@
   line-height: 1.25;  
 }
 
-@media screen and (max-width: 1024px) {
-  .footer {
-    
-  }
-}
-
 
 @media screen and (max-width: 768px) {
   .footer {
@@ -40,7 +34,6 @@
 @media screen and (max-width: 320px) {
 .footer {
   font-size: 24px;
-  line-height: 1;
   padding: 64px 0 24px;
 }
 }  

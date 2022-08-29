@@ -15,8 +15,6 @@
 
 @media screen and (max-width: 320px) {
   .footer__links  {
-    grid-template-columns: 1fr;
-    row-gap: 32px;
     margin-bottom: 48px;
   }
 }  
