@@ -1,22 +1,21 @@
 .container_type_big {
-    max-width: min(1184px, 95vw);
+  max-width: min(1184px, 95vw);
 }
 
-
 @media screen and (max-width: 1024px) {
-    .container_type_big {
+  .container_type_big {
       max-width: min(928px, 95vw);
-    }
   }
+}
 
 @media screen and (max-width: 768px) {
-    .container_type_big {
+  .container_type_big {
       max-width: min(720px, 95vw);
-    }
   }
+}
 
 @media screen and (max-width: 320px) {
-    .container_type_big {
-        max-width: 288px;
-    }
+  .container_type_big {
+      max-width: 288px;
   }
+}

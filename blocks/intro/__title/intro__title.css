@@ -1,5 +1,5 @@
 .intro__title {
-  font-family: Inler,  Arial, sans-serif;
+  font-family: Inler, Arial, sans-serif;
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
@@ -9,25 +9,23 @@
   max-width: 690px;
 }
 
-
 @media screen and (max-width: 768px) {
   .intro__title {
-    max-width: 720px;
+      max-width: 720px;
   }
 }
 
 @media screen and (max-width: 735px) {
   .intro__title {
-    font-size: 12vw;
-    line-height: 12vw;
+      font-size: 12vw;
+      line-height: 12vw;
   }
 }
 
-
 @media screen and (max-width: 320px) {
   .intro__title {
-    font-size: 32px;
-    line-height: 35px;
-    max-width: 250px;
+      font-size: 32px;
+      line-height: 35px;
+      max-width: 250px;
   }
 }

@@ -1,26 +1,23 @@
-
 .intro {
   padding-bottom: 92px;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 944px) {
-    .intro {
+  .intro {
       padding-left: 4vw;
-    }
+  }
 }
-
 
 @media screen and (max-width: 768px) {
   .intro {
-    padding-bottom: 88px;
-    padding-left: 0;
-    }
-  }  
-  
+      padding-bottom: 88px;
+      padding-left: 0;
+  }
+}
 
 @media screen and (max-width: 320px) {
   .intro {
-    padding-bottom: 64px;
-    }
-}  
+      padding-bottom: 64px;
+  }
+}

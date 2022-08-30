@@ -1,6 +1,6 @@
 .cover__title {
   margin: 0;
-  font-family: Inler,  Arial, sans-serif;
+  font-family: Inler, Arial, sans-serif;
   font-size: 72px;
   font-weight: 900;
   line-height: 1.05;
@@ -11,20 +11,18 @@
   align-self: center;
 }
 
-
 @media screen and (max-width: 768px) {
   .cover__title {
-    font-size: min(72px, 10vw);
-    width: min(560px, 73vw);
-    line-height: min(1.05, 73vw);
+      font-size: min(72px, 10vw);
+      width: min(560px, 73vw);
+      line-height: min(1.05, 73vw);
   }
 }
 
-
 @media screen and (max-width: 320px) {
-.cover__title {
-  font-size: 32px;
-  line-height: 35px;
-  min-width: 230px;
-}
+  .cover__title {
+      font-size: 32px;
+      line-height: 35px;
+      min-width: 230px;
+  }
 }

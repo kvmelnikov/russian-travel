@@ -1,25 +1,21 @@
 .container {
   max-width: min(984px, 80vw);
-} 
-
-
-@media screen and (max-width: 1024px){
-  .container {
-    max-width: min(928px, 95vw);
-  }
 }
 
+@media screen and (max-width: 1024px) {
+  .container {
+      max-width: min(928px, 95vw);
+  }
+}
 
 @media screen and (max-width: 768px) {
   .container {
-    max-width: min(720px, 95vw);
+      max-width: min(720px, 95vw);
   }
 }
 
-
-
 @media screen and (max-width: 320px) {
   .container {
-    max-width: 288px;
+      max-width: 288px;
   }
-}  
+}
