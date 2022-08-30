@@ -15,7 +15,7 @@
 }
 
 @font-face {
-  font-family: 'Inler Black';
+  font-family: 'Inler';
   src: url(./Inter/Inter-Black.woff) format('woff'),
        url(./Inter/Inter-Black.woff2) format('woff2');
   font-style: normal;

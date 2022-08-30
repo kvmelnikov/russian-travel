@@ -1,12 +1,12 @@
 .lead__title {
-  margin: 0;
-  font-family: Inler Black;
+  font-family: Inler;
   font-size: 96px;
   font-weight: 900;
   line-height: 100px;
   text-align: center;
   align-self: center;
   max-width: 720px;
+  margin-top: 0;
   margin-bottom: 32px;
 }
 
@@ -26,4 +26,4 @@
     max-width: 288px;
     margin-bottom: 16px;
   }
-}  
+}

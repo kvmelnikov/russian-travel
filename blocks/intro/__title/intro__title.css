@@ -1,10 +1,11 @@
 .intro__title {
-  margin: 0;
-  font-family: Inler Black;
+  font-family: Inler,  Arial, sans-serif;
   font-size: 54px;
   font-weight: 900;
   line-height: 58px;
   margin-bottom: 40px;
+  margin-top: 0;
+  width: 100%;
   max-width: 690px;
 }
 
