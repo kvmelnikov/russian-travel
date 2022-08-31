@@ -22,7 +22,6 @@
   .footer {
       grid-template-columns: repeat(auto-fit, minmax(150px,300px));
       padding-top: 88px;
-      width: 100%;
       max-width: 720px;
       row-gap: 48px;
   }
