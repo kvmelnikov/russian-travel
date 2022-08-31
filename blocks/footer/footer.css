@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: minmax(407px, 4fr) max-content;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 92px 0 24px 0;
   width: 92.5%;
   font-size: 16px;
@@ -19,8 +19,9 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-      grid-template-columns: repeat(auto-fit, minmax(288px, 350px));
+      grid-template-columns: repeat(auto-fit, minmax(150px,300px));
       padding-top: 88px;
+      width: 100%;
       max-width: 720px;
       row-gap: 48px;
   }
