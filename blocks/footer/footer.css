@@ -5,7 +5,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 92px 0 24px 0;
-  width: 92.5%;
+  width: 100%;
+  max-width: 1184px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.25;
@@ -33,5 +34,6 @@
       line-height: 1;
       padding: 64px 0 24px;
       justify-content: left;
+      max-width: 288px;
   }
 }

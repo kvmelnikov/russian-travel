@@ -1,6 +1,6 @@
 .cover__link {
   margin: 0 auto;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -45,6 +45,5 @@
 }
 
 .cover__link:hover::before {
-  content: "";
   opacity: 0.8;
 }
