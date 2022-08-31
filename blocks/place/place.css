@@ -10,6 +10,7 @@
 
 @media screen and (max-width: 1024px) {
   .place {
+      max-width: min(928px, 95vw);
       column-gap: 32px;
       grid-template-columns: minmax(45%, 440px) minmax(45%, 456px);
   }
@@ -17,6 +18,7 @@
 
 @media screen and (max-width: 768px) {
   .place {
+      max-width: min(720px, 95vw);
       column-gap: 28px;
       grid-template-columns: minmax(45%, 340px) minmax(45%, 352px);
       padding-bottom: 73px;
@@ -32,6 +34,7 @@
 
 @media screen and (max-width: 320px) {
   .place {
+      max-width: 320px;
       grid-template-columns: 320px;
       padding-bottom: 50px;
   }
